@@ -1,0 +1,81 @@
+ *{
+     margin: 0;
+     padding: 0;
+     box-sizing: border-box;
+    
+ }
+ .p{
+     padding: 20px;
+ }
+.main{
+    width: 200px;
+    height: 60px;
+    position: relative;
+    background-color: #ababab
+}
+.top-r{
+    position: absolute;
+    background-color: blue;
+    transition: all 5s linear;
+    
+}
+.location-1{
+    height: 0px;
+    top: 0;
+}
+
+.m-hov:hover .t-hov{
+    height: 100%;
+    width: 100%;
+}
+.location-2{
+    height: 0px;
+    bottom: 0;
+}
+.location-3{
+    width: 0px;
+    left: 0;
+}
+.location-4{
+    width: 0px;
+    right: 0;
+}
+.m-hov:hover .t-hova,
+.m-hov:hover .row
+{
+    height: 50%;
+    width: 100%;
+}
+.row{
+    position: absolute;
+    background-color: blue;
+    transition: all 3s linear;
+    
+}
+.location-6{
+    height: 0px;
+    bottom: 0;
+}
+.location-5{
+    height: 0px;
+    top: 0;
+}
+.big{
+    width: 400px;
+    height: 120px;
+
+}
+.location-7{
+    width: 0px;
+    left: 0;
+}
+.location-8{
+    width: 0px;
+    right: 0;
+}
+.m-hov:hover .location-7,
+.m-hov:hover .location-8
+{
+    height: 100%;
+   width: 50%;
+}
